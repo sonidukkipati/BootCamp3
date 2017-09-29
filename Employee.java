@@ -20,7 +20,7 @@ public class Employee {
         emp2.paySalary(897.88);
 
     }
-    //This is the constructor
+    //This is the constructor1
         
     public Employee(){
         System.out.println("He is the employee");
