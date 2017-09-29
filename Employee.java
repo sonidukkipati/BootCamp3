@@ -20,10 +20,12 @@ public class Employee {
         emp2.paySalary(897.88);
 
     }
+    //This is the constructor
+        
     public Employee(){
         System.out.println("He is the employee");
     }
-
+    //This is the salary method
     public double paySalary(double emp_salary){
        System.out.println("This is the salary of the Employee" + emp_salary) ;
        return emp_salary;
