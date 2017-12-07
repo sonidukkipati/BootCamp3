@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Suite" parallel="tests">
+    <test name="Window10FirefoxTest">
+        <parameter name="browser" value="firefox"/>
+        <parameter name="version" value="53"/>
+        <parameter name="os" value="WINDOWS"/>
+        <parameter name="osVersion" value="10"/>
+        <classes>
+            <class name="TestAddReport"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Window10ChromeTest">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="58"/>
+        <parameter name="os" value="WINDOWS"/>
+        <parameter name="osVersion" value="10"/>
+        <classes>
+            <class name="TestAddReport"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Window10IETest">
+        <parameter name="browser" value="IE"/>
+        <parameter name="version" value="11"/>
+        <parameter name="os" value="WINDOWS"/>
+        <parameter name="osVersion" value="10"/>
+        <classes>
+            <class name="TestAddReport"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Window10EdgeTest">
+        <parameter name="browser" value="Edge"/>
+        <parameter name="version" value="15"/>
+        <parameter name="os" value="WINDOWS"/>
+        <parameter name="osVersion" value="10"/>
+        <classes>
+            <class name="TestAddReport"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="MACFirefoxTest">
+        <parameter name="browser" value="firefox"/>
+        <parameter name="version" value="53"/>
+        <parameter name="os" value="MAC"/>
+        <parameter name="osVersion" value="7"/>
+        <classes>
+            <class name="TestAddReport"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
